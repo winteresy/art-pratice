@@ -1,0 +1,34 @@
+{
+  "entrypoints": {
+    "prototype_1": {
+      "js": [
+        "/packs/js/prototype_1-1a4cfa94f97b24700021.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_1-1a4cfa94f97b24700021.js.map"
+      ]
+    },
+    "prototype_2": {
+      "js": [
+        "/packs/js/prototype_2-146b3291dc69fbad6893.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_2-146b3291dc69fbad6893.js.map"
+      ]
+    },
+    "prototype_3": {
+      "js": [
+        "/packs/js/prototype_3-53069ed3d0cdb4ddd973.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_3-53069ed3d0cdb4ddd973.js.map"
+      ]
+    }
+  },
+  "prototype_1.js": "/packs/js/prototype_1-1a4cfa94f97b24700021.js",
+  "prototype_1.js.map": "/packs/js/prototype_1-1a4cfa94f97b24700021.js.map",
+  "prototype_2.js": "/packs/js/prototype_2-146b3291dc69fbad6893.js",
+  "prototype_2.js.map": "/packs/js/prototype_2-146b3291dc69fbad6893.js.map",
+  "prototype_3.js": "/packs/js/prototype_3-53069ed3d0cdb4ddd973.js",
+  "prototype_3.js.map": "/packs/js/prototype_3-53069ed3d0cdb4ddd973.js.map"
+}

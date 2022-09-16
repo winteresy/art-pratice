@@ -1,0 +1,169 @@
+.prototype_body_3 {
+  background: #EAEAEA;
+  cursor: url(water-flower.svg), default;
+}
+
+#prototype_3 {
+  display: flex;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+
+  .dog {
+    background-image: url(yuki.svg);
+    position: absolute;
+    bottom: 0;
+    left: 828px;
+    width: 622px;
+    height: 598px;
+    margin: auto;
+  }
+  .text {
+    background-image: url(text.svg);
+    position: absolute;
+    top: 43px;
+    left: 64px;
+    margin: auto;
+    width: 568px;
+    height: 256px;
+  }
+  .mouth1 {
+    background-image: url(mouth_1.svg);
+    opacity: 0;
+    position: absolute;
+    top: 220px;
+    left: 144px;
+    margin: auto;
+    width: 38px;
+    height: 6px;
+  }
+  .mouth2 {
+    background-image: url(mouth_2.svg);
+    opacity: 0;
+    position: absolute;
+    top: 205px;
+    left: 144px;
+    margin: auto;
+    width: 43px;
+    height: 29px;
+  }
+  .mouth_opacity{
+    opacity: 1;
+  }
+  .waterlily_container {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: 60px;
+    left: 64px;
+  }
+  .waterlily {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+  }
+  .waterlily_first {
+    background-image: url(water-lily1.svg);
+    top: 0;
+    left: 0;
+  }
+  .waterlily_first:hover {
+    background-image: url(water-lily1_hover.svg);
+  }
+  .waterlily_first_click {
+    background-image: url(water-lily1_click.svg);
+  }
+  .waterlily_second {
+    background-image: url(water-lily2.svg);
+    top: 0;
+    right: 0;
+  }
+  .waterlily_second:hover {
+    background-image: url(water-lily2_hover.svg);
+  }
+  .waterlily_second_click {
+    background-image: url(water-lily2_click.svg);
+  }
+  .waterlily_third {
+    background-image: url(water-lily3.svg);
+    bottom: 0;
+    left: 0;
+  }
+  .waterlily_third:hover {
+    background-image: url(water-lily3_hover.svg);
+  }
+  .waterlily_third_click {
+    background-image: url(water-lily3_click.svg);
+  }
+  .waterlily_fourth {
+    background-image: url(water-lily4.svg);
+    bottom: 0;
+    right: 0;
+  }
+  .waterlily_fourth:hover {
+    background-image: url(water-lily4_hover.svg);
+  }
+  .waterlily_fourth_click {
+    background-image: url(water-lily4_click.svg);
+  }
+
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    .slider {
+      overflow: visible;
+      position: absolute;
+      bottom: 210px;
+      left: 300px;
+      transform: rotate(90deg);
+      width: 350px;
+      height: 40px;
+      -webkit-appearance: none;
+      background-color: #A0C384;
+      border: 4px solid #2E742D;
+      border-radius: 20px;
+    }
+    .cursor {
+      cursor: url(water-flower.svg), default;
+    }
+  }
+
+  .water-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #A5DEFF;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .water-container_opacity {
+    opacity: .5;
+  }
+  .water-shadow {
+    background-image: url(water_shadow.svg);
+    width: 1482px;
+    height: 967px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    opacity: 0;
+  }
+  .water-shadow_opacity {
+    opacity: .2;
+  }
+  .water-light {
+    background-image: url(water_light.svg);
+    width: 1482px;
+    height: 967px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0;
+  }
+  .water-light_opacity {
+    opacity: 1;
+  }
+}

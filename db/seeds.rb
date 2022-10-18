@@ -7,7 +7,26 @@
     #ruby hash, тип данных ключ и значение
   },
   {
-    name: 'Home oscillator'
+    name: 'Song of the dog in the pond'
+  },
+  {
+    name: 'Second oscillator with React components'
+    #ruby hash, тип данных ключ и значение
+  },
+  {
+    name: '30 september lesson'
+  },
+  {
+    name: '7 october lesson'
+  },
+  {
+    name: 'plast 1'
+  },
+  {
+    name: 'better change function'
+  },
+  {
+    name: 'Composition'
   }
 ]
 

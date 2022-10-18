@@ -1,6 +1,7 @@
 let audioCtx
 let oscillator
 let a = 0;
+let b = 0;
 
 const frame = document.createElement('div')
 const text = document.createElement('div')
@@ -53,6 +54,10 @@ function createNewOscillator() {
   oscillator.start();
 }
 
+function deleteOscillator() {
+  oscillator.stop();
+}
+
 function changeOscillatorFrequency() {
   const slider = document.getElementById('slider')
   oscillator.frequency.setValueAtTime(slider.value, audioCtx.currentTime);
@@ -90,10 +95,14 @@ document.addEventListener('DOMContentLoaded', () => {
   waterLilyContainer.appendChild(waterLily4)
   createSlider()
 
-  frame.addEventListener('click', () => {
-    createNewOscillator()
-  })
   waterLily1.addEventListener('click', () => {
+    if (b == 0) {
+      createNewOscillator()
+      b = b + 1;
+    } else {
+      deleteOscillator()
+      b = 0;
+    }
     if (a == 0){
       waterLily1.classList.add('waterlily_first_click')
       waterContainer.classList.add('water-container_opacity')
@@ -108,5 +117,4 @@ document.addEventListener('DOMContentLoaded', () => {
       a = 0;
     }
   })
-
 })

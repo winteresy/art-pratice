@@ -1,5 +1,13 @@
 {
   "entrypoints": {
+    "hello_react": {
+      "js": [
+        "/packs/js/hello_react-061fc00a486d42b579f1.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_react-061fc00a486d42b579f1.js.map"
+      ]
+    },
     "prototype_1": {
       "js": [
         "/packs/js/prototype_1-1a4cfa94f97b24700021.js"
@@ -18,17 +26,79 @@
     },
     "prototype_3": {
       "js": [
-        "/packs/js/prototype_3-53069ed3d0cdb4ddd973.js"
+        "/packs/js/prototype_3-44ea75e1eac1359cb307.js"
       ],
       "js.map": [
-        "/packs/js/prototype_3-53069ed3d0cdb4ddd973.js.map"
+        "/packs/js/prototype_3-44ea75e1eac1359cb307.js.map"
+      ]
+    },
+    "prototype_4": {
+      "js": [
+        "/packs/js/prototype_4-c32154a8f2e783f98421.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_4-c32154a8f2e783f98421.js.map"
+      ]
+    },
+    "prototype_5": {
+      "js": [
+        "/packs/js/prototype_5-0dfdd7d9211699eb4f38.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_5-0dfdd7d9211699eb4f38.js.map"
+      ]
+    },
+    "prototype_6": {
+      "js": [
+        "/packs/js/prototype_6-a4607f3095d427ce0b88.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_6-a4607f3095d427ce0b88.js.map"
+      ]
+    },
+    "prototype_7": {
+      "js": [
+        "/packs/js/prototype_7-a1c19646f59557ab0e7b.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_7-a1c19646f59557ab0e7b.js.map"
+      ]
+    },
+    "prototype_8": {
+      "js": [
+        "/packs/js/prototype_8-93d69fdfd5d4f60ba22c.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_8-93d69fdfd5d4f60ba22c.js.map"
+      ]
+    },
+    "prototype_9": {
+      "js": [
+        "/packs/js/prototype_9-940ea8da038fea65d26f.js"
+      ],
+      "js.map": [
+        "/packs/js/prototype_9-940ea8da038fea65d26f.js.map"
       ]
     }
   },
+  "hello_react.js": "/packs/js/hello_react-061fc00a486d42b579f1.js",
+  "hello_react.js.map": "/packs/js/hello_react-061fc00a486d42b579f1.js.map",
   "prototype_1.js": "/packs/js/prototype_1-1a4cfa94f97b24700021.js",
   "prototype_1.js.map": "/packs/js/prototype_1-1a4cfa94f97b24700021.js.map",
   "prototype_2.js": "/packs/js/prototype_2-146b3291dc69fbad6893.js",
   "prototype_2.js.map": "/packs/js/prototype_2-146b3291dc69fbad6893.js.map",
-  "prototype_3.js": "/packs/js/prototype_3-53069ed3d0cdb4ddd973.js",
-  "prototype_3.js.map": "/packs/js/prototype_3-53069ed3d0cdb4ddd973.js.map"
+  "prototype_3.js": "/packs/js/prototype_3-44ea75e1eac1359cb307.js",
+  "prototype_3.js.map": "/packs/js/prototype_3-44ea75e1eac1359cb307.js.map",
+  "prototype_4.js": "/packs/js/prototype_4-c32154a8f2e783f98421.js",
+  "prototype_4.js.map": "/packs/js/prototype_4-c32154a8f2e783f98421.js.map",
+  "prototype_5.js": "/packs/js/prototype_5-0dfdd7d9211699eb4f38.js",
+  "prototype_5.js.map": "/packs/js/prototype_5-0dfdd7d9211699eb4f38.js.map",
+  "prototype_6.js": "/packs/js/prototype_6-a4607f3095d427ce0b88.js",
+  "prototype_6.js.map": "/packs/js/prototype_6-a4607f3095d427ce0b88.js.map",
+  "prototype_7.js": "/packs/js/prototype_7-a1c19646f59557ab0e7b.js",
+  "prototype_7.js.map": "/packs/js/prototype_7-a1c19646f59557ab0e7b.js.map",
+  "prototype_8.js": "/packs/js/prototype_8-93d69fdfd5d4f60ba22c.js",
+  "prototype_8.js.map": "/packs/js/prototype_8-93d69fdfd5d4f60ba22c.js.map",
+  "prototype_9.js": "/packs/js/prototype_9-940ea8da038fea65d26f.js",
+  "prototype_9.js.map": "/packs/js/prototype_9-940ea8da038fea65d26f.js.map"
 }

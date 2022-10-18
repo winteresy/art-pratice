@@ -2,3 +2,52 @@
   font-family: ADC;
   src: font-url('ADC-Semi-Bold') format('opentype');
 }
+
+@font-face {
+  font-family: Inter;
+  src: font-url('Inter-Regular') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: font-url('Inter-ExtraLight') format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: Inter;
+  src: font-url('Inter-Light') format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: Inter;
+  src: font-url('Inter-Medium') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Inter;
+  src: font-url('Inter-SemiBold') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Inter;
+  src: font-url('Inter-Bold') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Inter;
+  src: font-url('Inter-ExtraBold') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: Inter;
+  src: font-url('Inter-Black') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+}

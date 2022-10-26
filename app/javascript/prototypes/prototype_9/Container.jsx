@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 
 import * as bassSettings from './tunes/bass.js'
 import * as melodySettings from './tunes/melody.js'
+import * as drumsSettings from './tunes/drums.js'
 
 import ToneSynth from './modules/ToneSynth.jsx'
 import SC_Button from './components/SC_Button'
@@ -69,6 +70,29 @@ export default class Container extends Component {
     melodyPart.loopEnd = melodySettings.sequence.duration
     melodyPart.loop = true
 
+    const sampler = new Tone.Sampler({
+      urls: {
+        A1: 'clap-808.wav',
+        A2: 'clap-analog.wav'
+      },
+      baseUrl: 'http://localhost:3000/samples/'
+      // onload: () => {
+      //   sampler.triggerAttackRelease(['A1', 'A2', 'A1', 'A2'], 0.5)
+      // }
+    }).toDestination()
+
+    const drumsPart = new Tone.Part((time, note) => {
+      sampler.triggerAttackRelease(
+        note.noteName,
+        note.duration,
+        time,
+        note.velocity
+      )
+    }, drumsSettings.sequence.steps).start(0)
+
+    drumsPart.loopEnd = drumsSettings.sequence.duration
+    drumsPart.loop = true
+
     Tone.Transport.start()
   }
 
@@ -130,7 +154,7 @@ export default class Container extends Component {
     }
 
     this.setState({
-      bassSettings
+      melodySettings
     })
   }
 
@@ -151,7 +175,7 @@ export default class Container extends Component {
           step={0.01}
           value={bassSettings.pingPongDelay.wet}
           property="pingPongDelayWet"
-          handleChange={this.handleValueChange}
+          handleChange={this.handleBassValueChange}
         />
 
         <SC_Slider
@@ -161,7 +185,7 @@ export default class Container extends Component {
           step={0.01}
           value={bassSettings.chorus.wet}
           property="chorusWet"
-          handleChange={this.handleValueChange}
+          handleChange={this.handleBassValueChange}
         />
 
         <ToneSynth

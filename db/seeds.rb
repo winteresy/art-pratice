@@ -27,6 +27,9 @@
   },
   {
     name: 'Composition'
+  },
+  {
+    name: 'Japan Synth'
   }
 ]
 

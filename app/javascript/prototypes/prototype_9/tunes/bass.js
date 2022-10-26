@@ -40,25 +40,25 @@ const sequence = {
     {
       time: '0:0:0',
       noteName: 'C2',
-      duration: '1m',
+      duration: '1n',
       velocity: 1
     },
     {
       time: '1:0:0',
       noteName: 'E2',
-      duration: '1m',
+      duration: '1n',
       velocity: 1
     },
     {
       time: '2:0:0',
       noteName: 'A2',
-      duration: '1m',
+      duration: '1n',
       velocity: 1
     },
     {
       time: '3:0:0',
       noteName: 'G2',
-      duration: '1m',
+      duration: '1n',
       velocity: 1
     }
   ],

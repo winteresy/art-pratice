@@ -37602,3 +37602,120 @@ Processing by PrototypesController#show as HTML
 Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.1ms | Allocations: 10301)
 
 
+Started GET "/prototypes/10" for ::1 at 2022-10-27 00:57:14 +0300
+Processing by PrototypesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/prototypes_controller.rb:63:in `set_prototype'
+  [1m[36mPrototype Load (0.4ms)[0m  [1m[34mSELECT "prototypes".* FROM "prototypes" WHERE "prototypes"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/prototypes_controller.rb:63:in `set_prototype'
+  Rendering layout layouts/application.html.erb
+  Rendering prototypes/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered prototypes/show.html.erb within layouts/application (Duration: 17.1ms | Allocations: 2798)
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 9485)
+Completed 200 OK in 46ms (Views: 30.0ms | ActiveRecord: 4.7ms | Allocations: 10836)
+
+
+Started GET "/prototypes/10" for ::1 at 2022-10-27 01:05:11 +0300
+Processing by PrototypesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/prototypes_controller.rb:63:in `set_prototype'
+  [1m[36mPrototype Load (0.3ms)[0m  [1m[34mSELECT "prototypes".* FROM "prototypes" WHERE "prototypes"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/prototypes_controller.rb:63:in `set_prototype'
+  Rendering layout layouts/application.html.erb
+  Rendering prototypes/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered prototypes/show.html.erb within layouts/application (Duration: 26.2ms | Allocations: 2798)
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 9702)
+Completed 200 OK in 41ms (Views: 34.6ms | ActiveRecord: 0.6ms | Allocations: 11020)
+
+
+Started GET "/prototypes/10" for ::1 at 2022-10-27 01:17:41 +0300
+Processing by PrototypesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/prototypes_controller.rb:63:in `set_prototype'
+  [1m[36mPrototype Load (0.3ms)[0m  [1m[34mSELECT "prototypes".* FROM "prototypes" WHERE "prototypes"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/prototypes_controller.rb:63:in `set_prototype'
+  Rendering layout layouts/application.html.erb
+  Rendering prototypes/show.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/alicegurova/art-pactice/ADC-Generative-Art-Boilerplate-2023/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 0938e29bfe2dcd3eb478
+Version: webpack 4.46.0
+Time: 2183ms
+Built at: 10/27/2022 1:17:44 AM
+                                      Asset      Size        Chunks                         Chunk Names
+     js/hello_react-061fc00a486d42b579f1.js  1.25 MiB   hello_react  [emitted] [immutable]  hello_react
+ js/hello_react-061fc00a486d42b579f1.js.map  1.44 MiB   hello_react  [emitted] [dev]        hello_react
+     js/prototype_1-1a4cfa94f97b24700021.js  5.64 KiB   prototype_1  [emitted] [immutable]  prototype_1
+ js/prototype_1-1a4cfa94f97b24700021.js.map  4.48 KiB   prototype_1  [emitted] [dev]        prototype_1
+    js/prototype_10-00816bfbd7ca3ca1f680.js  3.76 MiB  prototype_10  [emitted] [immutable]  prototype_10
+js/prototype_10-00816bfbd7ca3ca1f680.js.map  3.18 MiB  prototype_10  [emitted] [dev]        prototype_10
+     js/prototype_2-146b3291dc69fbad6893.js   5.7 KiB   prototype_2  [emitted] [immutable]  prototype_2
+ js/prototype_2-146b3291dc69fbad6893.js.map  5.75 KiB   prototype_2  [emitted] [dev]        prototype_2
+     js/prototype_3-44ea75e1eac1359cb307.js  7.68 KiB   prototype_3  [emitted] [immutable]  prototype_3
+ js/prototype_3-44ea75e1eac1359cb307.js.map  7.99 KiB   prototype_3  [emitted] [dev]        prototype_3
+     js/prototype_4-c32154a8f2e783f98421.js  1.24 MiB   prototype_4  [emitted] [immutable]  prototype_4
+ js/prototype_4-c32154a8f2e783f98421.js.map   1.4 MiB   prototype_4  [emitted] [dev]        prototype_4
+     js/prototype_5-0dfdd7d9211699eb4f38.js  3.72 MiB   prototype_5  [emitted] [immutable]  prototype_5
+ js/prototype_5-0dfdd7d9211699eb4f38.js.map  3.16 MiB   prototype_5  [emitted] [dev]        prototype_5
+     js/prototype_6-a4607f3095d427ce0b88.js  3.73 MiB   prototype_6  [emitted] [immutable]  prototype_6
+ js/prototype_6-a4607f3095d427ce0b88.js.map  3.16 MiB   prototype_6  [emitted] [dev]        prototype_6
+     js/prototype_7-a1c19646f59557ab0e7b.js  3.71 MiB   prototype_7  [emitted] [immutable]  prototype_7
+ js/prototype_7-a1c19646f59557ab0e7b.js.map  3.16 MiB   prototype_7  [emitted] [dev]        prototype_7
+     js/prototype_8-93d69fdfd5d4f60ba22c.js  3.73 MiB   prototype_8  [emitted] [immutable]  prototype_8
+ js/prototype_8-93d69fdfd5d4f60ba22c.js.map  3.16 MiB   prototype_8  [emitted] [dev]        prototype_8
+     js/prototype_9-13399d901304eb76fb7e.js  3.75 MiB   prototype_9  [emitted] [immutable]  prototype_9
+ js/prototype_9-13399d901304eb76fb7e.js.map  3.17 MiB   prototype_9  [emitted] [dev]        prototype_9
+                              manifest.json  3.67 KiB                [emitted]              
+Entrypoint hello_react = js/hello_react-061fc00a486d42b579f1.js js/hello_react-061fc00a486d42b579f1.js.map
+Entrypoint prototype_1 = js/prototype_1-1a4cfa94f97b24700021.js js/prototype_1-1a4cfa94f97b24700021.js.map
+Entrypoint prototype_10 = js/prototype_10-00816bfbd7ca3ca1f680.js js/prototype_10-00816bfbd7ca3ca1f680.js.map
+Entrypoint prototype_2 = js/prototype_2-146b3291dc69fbad6893.js js/prototype_2-146b3291dc69fbad6893.js.map
+Entrypoint prototype_3 = js/prototype_3-44ea75e1eac1359cb307.js js/prototype_3-44ea75e1eac1359cb307.js.map
+Entrypoint prototype_4 = js/prototype_4-c32154a8f2e783f98421.js js/prototype_4-c32154a8f2e783f98421.js.map
+Entrypoint prototype_5 = js/prototype_5-0dfdd7d9211699eb4f38.js js/prototype_5-0dfdd7d9211699eb4f38.js.map
+Entrypoint prototype_6 = js/prototype_6-a4607f3095d427ce0b88.js js/prototype_6-a4607f3095d427ce0b88.js.map
+Entrypoint prototype_7 = js/prototype_7-a1c19646f59557ab0e7b.js js/prototype_7-a1c19646f59557ab0e7b.js.map
+Entrypoint prototype_8 = js/prototype_8-93d69fdfd5d4f60ba22c.js js/prototype_8-93d69fdfd5d4f60ba22c.js.map
+Entrypoint prototype_9 = js/prototype_9-13399d901304eb76fb7e.js js/prototype_9-13399d901304eb76fb7e.js.map
+[./app/javascript/packs/hello_react.jsx] 1.1 KiB {hello_react} [built]
+[./app/javascript/packs/prototype_1.js] 407 bytes {prototype_1} [built]
+[./app/javascript/packs/prototype_10.jsx] 589 bytes {prototype_10} [built]
+[./app/javascript/packs/prototype_2.js] 1.8 KiB {prototype_2} [built]
+[./app/javascript/packs/prototype_3.js] 3.78 KiB {prototype_3} [built]
+[./app/javascript/packs/prototype_4.jsx] 587 bytes {prototype_4} [built]
+[./app/javascript/packs/prototype_5.jsx] 587 bytes {prototype_5} [built]
+[./app/javascript/packs/prototype_6.jsx] 587 bytes {prototype_6} [built]
+[./app/javascript/packs/prototype_7.jsx] 586 bytes {prototype_7} [built]
+[./app/javascript/packs/prototype_8.jsx] 587 bytes {prototype_8} [built]
+[./app/javascript/packs/prototype_9.jsx] 587 bytes {prototype_9} [built]
+[./app/javascript/prototypes/prototype_1/utilities.js] 289 bytes {prototype_1} [built]
+[./app/javascript/prototypes/prototype_10/Container.jsx] 19.7 KiB {prototype_10} [built]
+[./app/javascript/prototypes/prototype_4/Container.jsx] 6.38 KiB {prototype_4} [built]
+[./app/javascript/prototypes/prototype_5/Container.jsx] 13.9 KiB {prototype_5} [built]
+    + 984 hidden modules
+
+  Rendered prototypes/show.html.erb within layouts/application (Duration: 3297.2ms | Allocations: 4594)
+  Rendered layout layouts/application.html.erb (Duration: 3302.8ms | Allocations: 11268)
+Completed 200 OK in 3311ms (Views: 3303.5ms | ActiveRecord: 0.8ms | Allocations: 12587)
+
+
+Started GET "/prototypes/10" for ::1 at 2022-10-27 01:18:59 +0300
+Processing by PrototypesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mPrototype Load (0.1ms)[0m  [1m[34mSELECT "prototypes".* FROM "prototypes" WHERE "prototypes"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/prototypes_controller.rb:63:in `set_prototype'
+  Rendering layout layouts/application.html.erb
+  Rendering prototypes/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered prototypes/show.html.erb within layouts/application (Duration: 11.2ms | Allocations: 2798)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 9483)
+Completed 200 OK in 23ms (Views: 17.3ms | ActiveRecord: 0.1ms | Allocations: 10287)
+
+

@@ -1,7 +1,7 @@
 import * as Tone from 'tone'
 import React, { Component } from 'react'
 
-import * as banjoSettings from './tunes/banjo.js'
+import * as kotoSettings from './tunes/koto.js'
 import * as melodySettings from './tunes/melody.js'
 
 import Channel from './modules/Channel.jsx'
@@ -12,7 +12,7 @@ import SC_ToggleButtonSet from './components/SC_ToggleButtonSet'
 
 import SC_Slider from './components/SC_Slider'
 
-let banjoChannel
+let kotoChannel
 
 let melodySynth
 let melodyChorus
@@ -24,7 +24,7 @@ export default class Container extends Component {
     super(props)
 
     this.state = {
-      banjoSettings,
+      kotoSettings,
       melodySettings,
       fishOpacityFirst: 'fishkoi fishkoi_first',
       fishOpacitySecond: 'fishkoi fishkoi_second',
@@ -37,7 +37,7 @@ export default class Container extends Component {
 
   handleStart = () => {
     const {
-      banjoSettings,
+      kotoSettings,
       melodySettings,
       fishOpacityFirst,
       fishOpacitySecond,
@@ -85,20 +85,20 @@ export default class Container extends Component {
       baseUrl: 'http://localhost:3000/samples/'
     }).toDestination()
 
-    banjoChannel = new Tone.Channel(banjoSettings.channel).toDestination()
-    sampler.chain(banjoChannel)
+    kotoChannel = new Tone.Channel(kotoSettings.channel).toDestination()
+    sampler.chain(kotoChannel)
 
-    const banjoPart = new Tone.Part((time, note) => {
+    const kotoPart = new Tone.Part((time, note) => {
       sampler.triggerAttackRelease(
         note.noteName,
         note.duration,
         time,
         note.velocity
       )
-    }, banjoSettings.sequence.steps).start(0)
+    }, kotoSettings.sequence.steps).start(0)
 
-    banjoPart.loopEnd = banjoSettings.sequence.duration
-    banjoPart.loop = true
+    kotoPart.loopEnd = kotoSettings.sequence.duration
+    kotoPart.loop = true
 
     Tone.Transport.start()
   }
@@ -155,26 +155,26 @@ export default class Container extends Component {
     })
   }
 
-  handleBanjoValueChange = (property, value) => {
-    const { banjoSettings } = this.state
+  handleKotoValueChange = (property, value) => {
+    const { kotoSettings } = this.state
 
     if (property === 'channelVolume') {
-      banjoChannel.volume.value = value
-      banjoSettings.channel.volume = value
+      kotoChannel.volume.value = value
+      kotoSettings.channel.volume = value
     } else if (property === 'channelMute') {
-      const mute = !banjoSettings.channel.mute
-      banjoChannel.mute = mute
-      banjoSettings.channel.mute = mute
+      const mute = !kotoSettings.channel.mute
+      kotoChannel.mute = mute
+      kotoSettings.channel.mute = mute
     }
 
     this.setState({
-      banjoSettings
+      kotoSettings
     })
   }
 
   render() {
     const {
-      banjoSettings,
+      kotoSettings,
       melodySettings,
       fishOpacityFirst,
       fishOpacitySecond,
@@ -207,8 +207,8 @@ export default class Container extends Component {
               <div className="ChannelNameContainer">
                 <h2 className="ChannelName">Japan melody</h2>
                 <Channel
-                  settings={banjoSettings}
-                  handleValueChange={this.handleBanjoValueChange}
+                  settings={kotoSettings}
+                  handleValueChange={this.handleKotoValueChange}
                 />
               </div>
               <div className="ChannelNameContainer">

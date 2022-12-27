@@ -30,6 +30,18 @@
   },
   {
     name: 'Japan Synth'
+  },
+  {
+    name: 'JS Events And Surface UI Element'
+  },
+  {
+    name: 'Effects UI as components'
+  },
+  {
+    name: 'Last project from december lesson'
+  },
+  {
+    name: '2 module Japan Synth'
   }
 ]
 

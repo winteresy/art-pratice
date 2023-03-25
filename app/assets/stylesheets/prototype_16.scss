@@ -1,0 +1,32 @@
+.prototype_body_16 {
+  background: var(--dark-grey);
+  font-family: Gudini;
+  color: var(--white);
+}
+
+.background {
+  background: var(--black);
+  position: absolute;
+  width: 700px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.p5Canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  //filter: blur(40px);
+  
+}
+.input_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.button_container {
+  position: absolute;
+  top: 300px;
+  right: 0;
+}

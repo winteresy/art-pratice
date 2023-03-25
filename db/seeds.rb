@@ -42,6 +42,12 @@
   },
   {
     name: '2 module Japan Synth'
+  },
+  {
+    name: 'Aurora test'
+  },
+  {
+    name: 'Aurora'
   }
 ]
 

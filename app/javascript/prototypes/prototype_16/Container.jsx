@@ -160,7 +160,7 @@ function Prototype16() {
           </div>
           <div className="input_container">
           <div className="input_text_with_slider">
-            <label htmlFor="waveAmplitudeSlider">Wave Amplitude:</label>
+            <label htmlFor="waveAmplitudeSlider">Wave Amplitude</label>
             <input
               className="slider"
               type="range"
@@ -172,7 +172,7 @@ function Prototype16() {
             />
           </div>
           <div className="input_text_with_slider">
-            <label htmlFor="waveHueSlider">Wave Hue:</label>
+            <label htmlFor="waveHueSlider">Wave Hue</label>
             <input
               className="slider"
               type="range"
@@ -184,7 +184,7 @@ function Prototype16() {
             />
           </div>
           <div className="input_text_with_slider">
-            <label htmlFor="waveSaturationSlider">Wave Saturation:</label>
+            <label htmlFor="waveSaturationSlider">Wave Saturation</label>
             <input
               className="slider"
               type="range"
@@ -196,7 +196,7 @@ function Prototype16() {
             />
           </div>
           <div className="input_text_with_slider">
-            <label htmlFor="waveBrightnessSlider">Wave Brightness:</label>
+            <label htmlFor="waveBrightnessSlider">Wave Brightness</label>
             <input
               className="slider"
               type="range"
